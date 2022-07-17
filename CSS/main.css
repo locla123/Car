@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+/* CSS phan thanh dieu huong */
+nav.menus {
+    width: vw;
+    height: 15vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+}
+
+ul.subcontent {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+}
+
+/* cac the li */
+ul.subcontent > li > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+ul.subcontent > li > a.sub {
+    display: block;
+    text-align: center;
+    background-color: rgba(24, 144, 255, 0.16);
+    color: #0C53B7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul.menu {
+    margin-left: 30rem;;
+}
+
+ul.menu > li {
+    margin-left: 1rem;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+
+ul.subcontent > li > a > img {
+    float: left;
+    height: 3rem;
+}
+ul.menu > li:first-child > a {
+    color: #02a754;
+}
+
+ul.menu > li:last-child > a {
+    border-radius: 10px;
+    background-color: #02a754;
+}
+
+ul.menu > li > a:hover {
+    color: black;
+}
+
+a#fi:hover {
+    color: #06ba60;
+}
+
+a#la:hover {
+    color: white;
+    background: #06ba60;
+}
+
+/* CSS phan duoi thanh dieu huong */
+div.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, black, grey, rgba(35, 32, 32, 0.3), grey);
+}
+
+
+div.container > p.parents {
+    font-weight: 600;
+    top: 10vh;
+    left: 10vw;
+    position: relative;
+    width: 30rem;
+    color: white;
+    font-size: 5rem;
+    font-family: Public Sans,sans-serif;
+    z-index: 999;
+}
+
+div.container > p.parents > b.fchild {
+    color: #00ab55;
+    display: block;
+}
+
+
+div.container > img {
+    opacity: 0.8;
+    position: relative;
+    top: 15vh;
+    left: 17vw;
+    height: 30vw;
+}
+
+
