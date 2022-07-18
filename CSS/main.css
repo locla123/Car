@@ -109,7 +109,7 @@ div.container > p.parents > b.fchild {
 div.container > img {
     animation: mymove 5s infinite;
     opacity: 0.8;
-    position: relative;
+    position: relative; 
     top: 15vh;
     left: 17vw;
     height: 25vw;
